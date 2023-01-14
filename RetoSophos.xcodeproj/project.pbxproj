@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4831C1DC2955775A00E22621 /* RetoSophosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4831C1DB2955775A00E22621 /* RetoSophosApp.swift */; };
+		4831C1E02955775D00E22621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4831C1DF2955775D00E22621 /* Assets.xcassets */; };
+		4831C1E32955775D00E22621 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4831C1E22955775D00E22621 /* Preview Assets.xcassets */; };
+		4831C1EB2955783200E22621 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4831C1EA2955783200E22621 /* LoginView.swift */; };
+		4831C1ED2955796400E22621 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4831C1EC2955796400E22621 /* MainMenuView.swift */; };
+		489E9E6A296D0DEE00C87713 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489E9E69296D0DEE00C87713 /* RowView.swift */; };
+		489E9E6E296D238700C87713 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489E9E6D296D238700C87713 /* ListDetailView.swift */; };
+		48A2BCE72963B59700FFC361 /* DocumentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A2BCE62963B59600FFC361 /* DocumentationView.swift */; };
+		48A2BCE92964131400FFC361 /* DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A2BCE82964131400FFC361 /* DocumentsView.swift */; };
+		48A42339296516A6001106CB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 48A42338296516A6001106CB /* Alamofire */; };
+		48A4233D29654D63001106CB /* NetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A4233C29654D63001106CB /* NetworkingProvider.swift */; };
+		48BD33012967A03500C915FC /* Documents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BD33002967A03500C915FC /* Documents.swift */; };
+		48BD33042967C30500C915FC /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BD33032967C30500C915FC /* Users.swift */; };
+		48E5B9E12971AF2D00629114 /* OfficesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E5B9E02971AF2D00629114 /* OfficesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4831C1D82955775A00E22621 /* RetoSophos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetoSophos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4831C1DB2955775A00E22621 /* RetoSophosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoSophosApp.swift; sourceTree = "<group>"; };
+		4831C1DF2955775D00E22621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4831C1E22955775D00E22621 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4831C1EA2955783200E22621 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4831C1EC2955796400E22621 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		489E9E69296D0DEE00C87713 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		489E9E6D296D238700C87713 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
+		48A2BCE62963B59600FFC361 /* DocumentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationView.swift; sourceTree = "<group>"; };
+		48A2BCE82964131400FFC361 /* DocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsView.swift; sourceTree = "<group>"; };
+		48A4233C29654D63001106CB /* NetworkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProvider.swift; sourceTree = "<group>"; };
+		48BD33002967A03500C915FC /* Documents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Documents.swift; path = ../Network/Documents.swift; sourceTree = "<group>"; };
+		48BD33032967C30500C915FC /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		48E5B9E02971AF2D00629114 /* OfficesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4831C1D52955775A00E22621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A42339296516A6001106CB /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4831C1CF2955775A00E22621 = {
+			isa = PBXGroup;
+			children = (
+				4831C1DA2955775A00E22621 /* RetoSophos */,
+				4831C1D92955775A00E22621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4831C1D92955775A00E22621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4831C1D82955775A00E22621 /* RetoSophos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4831C1DA2955775A00E22621 /* RetoSophos */ = {
+			isa = PBXGroup;
+			children = (
+				4831C1DB2955775A00E22621 /* RetoSophosApp.swift */,
+				48BD33022967C2E300C915FC /* Model */,
+				4831C1E9295577B600E22621 /* Views */,
+				48A4233B29654CE4001106CB /* Network */,
+				4831C1DF2955775D00E22621 /* Assets.xcassets */,
+				4831C1E12955775D00E22621 /* Preview Content */,
+			);
+			path = RetoSophos;
+			sourceTree = "<group>";
+		};
+		4831C1E12955775D00E22621 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4831C1E22955775D00E22621 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4831C1E9295577B600E22621 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4831C1EA2955783200E22621 /* LoginView.swift */,
+				4831C1EC2955796400E22621 /* MainMenuView.swift */,
+				48A2BCE62963B59600FFC361 /* DocumentationView.swift */,
+				48A2BCE82964131400FFC361 /* DocumentsView.swift */,
+				489E9E69296D0DEE00C87713 /* RowView.swift */,
+				489E9E6D296D238700C87713 /* ListDetailView.swift */,
+				48E5B9E02971AF2D00629114 /* OfficesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48A4233B29654CE4001106CB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				48A4233E29654D63001106CB /* Data */,
+				48A4233C29654D63001106CB /* NetworkingProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		48A4233E29654D63001106CB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		48BD33022967C2E300C915FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48BD33032967C30500C915FC /* Users.swift */,
+				48BD33002967A03500C915FC /* Documents.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4831C1D72955775A00E22621 /* RetoSophos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4831C1E62955775D00E22621 /* Build configuration list for PBXNativeTarget "RetoSophos" */;
+			buildPhases = (
+				4831C1D42955775A00E22621 /* Sources */,
+				4831C1D52955775A00E22621 /* Frameworks */,
+				4831C1D62955775A00E22621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetoSophos;
+			packageProductDependencies = (
+				48A42338296516A6001106CB /* Alamofire */,
+			);
+			productName = RetoSophos;
+			productReference = 4831C1D82955775A00E22621 /* RetoSophos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4831C1D02955775A00E22621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4831C1D72955775A00E22621 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4831C1D32955775A00E22621 /* Build configuration list for PBXProject "RetoSophos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4831C1CF2955775A00E22621;
+			packageReferences = (
+				48A42337296516A6001106CB /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 4831C1D92955775A00E22621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4831C1D72955775A00E22621 /* RetoSophos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4831C1D62955775A00E22621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4831C1E32955775D00E22621 /* Preview Assets.xcassets in Resources */,
+				4831C1E02955775D00E22621 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4831C1D42955775A00E22621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4831C1EB2955783200E22621 /* LoginView.swift in Sources */,
+				48BD33042967C30500C915FC /* Users.swift in Sources */,
+				489E9E6E296D238700C87713 /* ListDetailView.swift in Sources */,
+				48A2BCE72963B59700FFC361 /* DocumentationView.swift in Sources */,
+				48A2BCE92964131400FFC361 /* DocumentsView.swift in Sources */,
+				4831C1ED2955796400E22621 /* MainMenuView.swift in Sources */,
+				48A4233D29654D63001106CB /* NetworkingProvider.swift in Sources */,
+				489E9E6A296D0DEE00C87713 /* RowView.swift in Sources */,
+				48BD33012967A03500C915FC /* Documents.swift in Sources */,
+				48E5B9E12971AF2D00629114 /* OfficesView.swift in Sources */,
+				4831C1DC2955775A00E22621 /* RetoSophosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4831C1E42955775D00E22621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4831C1E52955775D00E22621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4831C1E72955775D00E22621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetoSophos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "App Sophos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almintaro.RetoSophos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4831C1E82955775D00E22621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetoSophos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "App Sophos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almintaro.RetoSophos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4831C1D32955775A00E22621 /* Build configuration list for PBXProject "RetoSophos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4831C1E42955775D00E22621 /* Debug */,
+				4831C1E52955775D00E22621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4831C1E62955775D00E22621 /* Build configuration list for PBXNativeTarget "RetoSophos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4831C1E72955775D00E22621 /* Debug */,
+				4831C1E82955775D00E22621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48A42337296516A6001106CB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48A42338296516A6001106CB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48A42337296516A6001106CB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4831C1D02955775A00E22621 /* Project object */;
+}
